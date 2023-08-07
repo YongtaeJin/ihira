@@ -1,0 +1,293 @@
+.v-application .config-list-group {
+	list-style : none;
+	padding: 0;
+}
+.config-list-group .list-group-item {
+	padding : 0;
+	display: flex;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 8px;
+}
+.config-list-group table {padding: 4px;width: 100%;}
+.config-list-group table tr + tr td {border-top : 1px dashed #ccc;}
+.config-list-group table td {padding: 4px;}
+.config-list-group table tr td:nth-child(1) {width: 20%;}
+.config-list-group table tr td:nth-child(2) {width: auto;}
+.config-list-group table tr td:nth-child(3) {width: 32px;}
+.config-list-group table tr td:nth-child(4) {width: 36px;}
+.config-list-group .client {position: relative; left:5px}
+.config-list-group .comment {font-size: 0.9em;}
+.config-list-group .handle {cursor: grab;}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > th, .v-data-table > .v-data-table__wrapper > table > thead > tr > th, .v-data-table > .v-data-table__wrapper > table > tfoot > tr > th 
+{
+    /* font-size: 1.0rem;     */
+    height: 30px;   
+	color: white !important;		
+	/* background-color: #0d54fa; */
+	background: linear-gradient(to bottom, #0d54fa, #6894ff); /* 그라데이션 색상 설정 */
+	border-right: 1px solid #f0f0f0 ; /* 세로 선 스타일 설정 */
+	border-bottom: 1px solid #f0f0f0 ; /* 이래 선 스타일 설정 */
+	/* border-bottom: none !important; */
+	padding: 0;
+	margin: 0;
+	
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td, .v-data-table > .v-data-table__wrapper > table > thead > tr > td, .v-data-table > .v-data-table__wrapper > table > tfoot > tr > td {
+	font-size: 0.7rem;  
+	height: 24px; /* 원하는 높이로 변경하세요 */
+	line-height: 24px; /* 높이와 같은 값을 사용하세요 */
+	border-right: 1px solid #f0f0f0 ; /* 세로 선 스타일 설정 */
+	border-bottom: 1px solid #f0f0f0 ; /* 아래 선 스타일 설정 */
+	padding: 0;
+	margin: 0;
+}
+
+.v-data-table .v-data-table__wrapper .v-data-table__cell {
+	height: 24px; /* 원하는 높이로 변경하세요 */
+	line-height: 24px; /* 높이와 같은 값을 사용하세요 */
+	padding: 0;
+    margin: 0;
+}
+  
+.v-toolbar__title {
+	font-size: 1.0rem !important;
+}
+
+tr.v-data-table__selected {
+	background: #c2fad8 !important;
+	padding: 0;
+    margin: 0;
+}
+.v-data-footer .v-data-footer__select {
+	font-size: 0.5rem !important;
+	height: 24px; /* 원하는 폭으로 조정 */
+	padding: 0;
+    margin: 0;
+}
+.row_select {
+	background-color: #c2fad8 !important;
+	
+	padding: 0;
+    margin: 0;
+}
+.blue_background {	background: linear-gradient(to bottom, #0d54fa, #6894ff) }
+
+.text-input-blue .v-text-field__slot input {
+	padding: 0;    margin: 0; 
+	color: #00f !important;	
+}
+.text-input-red .v-text-field__slot input {
+	padding: 0;    margin: 0; 
+	color: red !important;
+}
+.text-input-bluebrg .v-text-field__slot input {
+	color: #00f !important;
+	/* margin-top: 3px; margin-bottom: -2px; */
+	padding: 0;    margin: 0;
+	background-color: rgba(234, 235, 220, 0.937) !important;
+
+}
+.text-input-redbrg .v-text-field__slot input {
+	color: red !important;
+	/* margin-top: 3px; margin-bottom: -2px; */
+	padding: 0;    margin: 0; 
+	background-color: rgba(234, 235, 220, 0.937) !important;	
+}
+/* .text-input-white .v-text-field__slot input, label {
+	color: white !important;		
+} */
+.text-input-bluewhite .v-text-field__slot input {
+	padding: 0;    margin: 0; 
+	color: white !important;
+	background: #00f !important;
+}
+.text-input-redwhite .v-text-field__slot input {	
+	padding: 0;    margin: 0; 
+	color: white !important;
+	background: red !important;
+}
+.label-end .v-label {
+	padding: 0;    margin: 0; 
+	right: 0 !important;
+	text-align: end;
+	left: 100px !important;
+	
+}
+
+table.type07 {	
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 0.8;
+	border: 1px solid #ccc;
+	width: 100% !important;;	
+	/* margin: 20px 10px; */
+  }
+  table.type07 thead {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: hwb(144 76% 2%);
+  }
+  table.type07 thead th {
+	padding: 5px;	
+	font-size: 0.8rem;
+	vertical-align: top;
+	/* color: #fff; */
+	/* border-bottom: 1px solid #ccc; */
+  }
+  table.type07 tbody th {
+	width: 15%;
+	/* width: 10vw; */
+	padding: 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #fcf1f4;
+  }
+  table.type07 td {	
+	padding: 5px;
+	width: 85%;
+	vertical-align: top;
+	font-size: 0.7rem;
+	/* color: hsl(272, 87%, 3%); */
+	border-bottom: 1px solid #ccc;
+  }
+
+.s_no.v-text-field {
+	width: 50px !important;
+}
+
+.icon-container {
+	display: flex;
+	flex-direction: row;
+}
+.my-text-field {
+	padding: 0;    margin-top: -4px; 
+	height: 26px !important;	
+}
+.my-text-field .v-select {
+	font-size: 0.7rem !important;
+}
+.my-text-field input {
+	font-size: 0.7rem !important;	
+}
+.my-text-fieldend {
+	padding: 0;    margin: 0; 
+	height: 8px !important;
+}
+.my-text-fontsize input {
+	font-size: 0.7rem !important;	
+}
+.my-text-table {
+	margin-top: -8px; 
+	height: 24px !important;
+}
+.my-text-table input {	
+	font-size: 0.7rem !important;	
+	height: 24px !important;		
+}
+.my-text-table-center {
+	padding: 0;    margin: 0; 
+	height: 24px !important;
+}
+.my-text-table-center input {	
+	font-size: 0.7rem !important;	
+	height: 24px !important;	
+	text-align: center;
+}
+.my-text-field-label label {
+	font-size: 0.7rem !important;	
+}
+
+.v-subtitle {
+	font-size: 0.9rem !important;	
+}
+.v-subheader {
+	font-size: 0.7rem !important;	
+}
+
+.my-custom-class .v-label {
+	margin-bottom: 1px; /* label 아래쪽 간격 조정 */
+	line-height: 30px; 
+	font-size: 0.7rem; /* label 글자 크기 조정 */
+}
+
+.my-custom-class .v-input__control {
+	padding-top: 0x; /* input 위쪽 간격 조정 */
+	padding-bottom: 0px; /* input 아래쪽 간격 조정 */
+	margin-top: -4px;	
+}
+
+.my-card {
+	background-color: rgba(234, 235, 220, 0.937) !important;	
+	margin-top: 0px; /* 카드의 위쪽 여백을 10px로 지정합니다 */	
+}
+
+.inputPrice input::-webkit-outer-spin-button,
+.inputPrice input::-webkit-inner-spin-button {
+    -webkit-appearance: none;	
+}
+.inputPrice .v-text-field__slot input {
+	padding: 0;    margin: 0; 
+	text-align: right;
+}
+.inputPrice .v-select__selection {
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.inputNumber .v-text-field__slot input {
+	text-align: center;
+	/* text-align: right; */
+}
+.inputNumber .v-select__selection {
+	width: 100%;
+	justify-content: flex-end;
+}
+.inputNumber input::-webkit-outer-spin-button,
+.inputNumber input::-webkit-inner-spin-button {
+    -webkit-appearance: none;	
+}
+
+.orange {
+	background-color: orange;
+	color: white;
+}
+
+.center-align {
+	text-align: center;
+}
+.right-align {
+	text-align: justify;
+}
+.left-align {
+	text-align: left;
+}
+.v-tabs { height: 26px; }
+.v-tab {
+	font-size: 0.8rem;
+	height: 20px; 	
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+	margin-top: -2px;
+  }
+.no-margin {
+    padding: 0;
+    margin: 0;
+  }
+.no_padmar0 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .no_padmar1 {
+    padding: 1;
+    margin: 0;
+  }
+.underline {
+	text-decoration: underline;
+}
